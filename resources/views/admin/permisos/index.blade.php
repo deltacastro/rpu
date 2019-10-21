@@ -1,7 +1,17 @@
-@extends('layouts.app')
+@extends('layouts._card')
 
-@section('content')
-    <h2>Lista de permisos</h2>
+@section('style')
 
+@endsection
+
+@section('title')
+    Permisos
+@endsection
+
+@section('body')
     @include('admin.permisos._list')
+@endsection
+
+@section('footer')
+    <a href="">regresar</a>
 @endsection
